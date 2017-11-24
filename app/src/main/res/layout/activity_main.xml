@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="mvp.imooc.com.designpattern.MainActivity">
+
+    <Button
+        android:id="@+id/btn_adapter_pattern"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="适配器模式"/>
+    <Button
+        android:id="@+id/btn_assemblage_pattern"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="组合模式"/>
+    <Button
+        android:id="@+id/btn_strategy_pattern"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="策略模式"/>
+    <Button
+        android:id="@+id/btn_template_pattern"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="模板模式"/>
+    <Button
+        android:id="@+id/command_btn"
+        android:layout_width="match_parent"
+        android:text="命令模式"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/btn_abstract_factory"
+        android:layout_width="match_parent"
+        android:text="抽象工厂模式"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/btn_garnish"
+        android:layout_width="match_parent"
+        android:text="装饰着模式"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/btn_observer"
+        android:layout_width="match_parent"
+        android:text="观察者模式"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
